@@ -1,13 +1,27 @@
-<ol>
-	<li><a href="#tag_table" title="Теги таблицы HTML5">HTML5. Теги табличные.</a>
-	<ol>
-	<li>&lt;table&gt;</li>
-	</ol>
-	</li>
-	<li>Атрибуты тега &lt;table&gt;</li>
-	<li>Заголовки строк и столбцов html-таблицы</li>
-	<li>Слияние ячеек html-таблицы</li>
-	<li>Стилизация html-таблицы, строк и ячеек</li>
-	<li>Стилизация столбцов html-таблицы</li>
-	<li>Адаптивная таблица</li>
-</ol>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Simple table</title>
+    <link href="minimal-table.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Simple table</h1>
+
+    <table>
+      <tr>
+        <td>Hi, I'm your first cell.</td>
+        <td>I'm your second cell.</td>
+        <td>I'm your third cell.</td>
+        <td>I'm your fourth cell.</td>
+      </tr>
+      <tr>
+        <td>Second row, first cell.</td>
+        <td>Cell 2.</td>
+        <td>Cell 3.</td>
+        <td>Cell 4.</td>
+      </tr>
+    </table>
+  </body>
+</html>
